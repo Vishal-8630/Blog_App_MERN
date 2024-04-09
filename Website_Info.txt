@@ -1,0 +1,8 @@
+------ Pages ------
+-> Home (Feed etc.)
+-> Signin/Signup
+-> Logout
+-> Profile
+-> All blogs
+-> Create blog
+-> See blog 
