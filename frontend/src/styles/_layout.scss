@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    height: 100vh;
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: 0 auto;
+    position: relative;
+    background-color: $background-color;
+
+    @include desktop {
+        width: 80%;
+    }
+}
+
+.form {
+    width: 80%;
+    max-width: $max-width / 2;
+    min-width: $min-width;
+    background-color: $white;
+    box-shadow: $box-shadow-1;
+    border-radius: $small-border-radius;
+    padding: $large-padding;
+
+    @include flex(column, center, center, $base-gap);
+}

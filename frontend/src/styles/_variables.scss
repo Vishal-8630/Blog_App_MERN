@@ -1,5 +1,5 @@
 // Colors
-$background-color: #ffeecf66; // need to update
+$background-color: #f2f2f2ec; // need to update
 $primary-color: #453333; // need to update
 $white: white;
 $black: black;
@@ -42,4 +42,9 @@ $opacity: 0.7;
 $transition: all 0.3s ease-in-out;
 
 // Width and Height
-$max-width: 90rem;
+$max-width: 80rem;
+$min-width: 30rem;
+
+// Box shadow
+$box-shadow-1: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+$box-shadow-2: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
